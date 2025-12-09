@@ -108,7 +108,7 @@ if ENVIRONMENT == "production":
         "https://www.easyhired.online",
         "https://cv-rusuland.vercel.app",
         "http://localhost:3000",
-        "https://resumer-frontend-dqlc07x0d-jack-lins-projects-3d31586c.vercel.app/"
+        "https://resumer-frontend-dqlc07x0d-jack-lins-projects-3d31586c.vercel.app"
     ]
     allow_credentials = True
 else:
