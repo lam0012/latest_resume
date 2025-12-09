@@ -108,6 +108,7 @@ if ENVIRONMENT == "production":
         "https://www.easyhired.online",
         "https://cv-rusuland.vercel.app",
         "http://localhost:3000",
+        "https://resumer-frontend-dqlc07x0d-jack-lins-projects-3d31586c.vercel.app/"
     ]
     allow_credentials = True
 else:
@@ -119,7 +120,8 @@ else:
         "http://127.0.0.1:3001",
         "http://localhost:5173",  # Vite default
         "http://127.0.0.1:5173",
-        "https://cv-rusuland.vercel.app"
+        "https://cv-rusuland.vercel.app",
+        "https://resumer-frontend-dqlc07x0d-jack-lins-projects-3d31586c.vercel.app/"
     ]
     allow_credentials = True
 
