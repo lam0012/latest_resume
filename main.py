@@ -101,19 +101,24 @@ app = FastAPI(
 )
 
 # Configure CORS
-ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
-if ENVIRONMENT == "production":
-    allowed_origins = [
-        "https://easyhired.online",
-        "https://www.easyhired.online",
-        "https://cv-rusuland.vercel.app",
-        "http://localhost:3000",
-        "https://resumer-frontend-dqlc07x0d-jack-lins-projects-3d31586c.vercel.app"
-    ]
-    allow_credentials = True
-else:
-    # In development: explicitly allow localhost for frontend
-    allowed_origins = [
+def get_allowed_origins() -> List[str]:
+    """Return a normalized list of allowed origins."""
+    env_origins = os.getenv("ALLOWED_ORIGINS")
+    if env_origins:
+        return [o.strip().rstrip("/") for o in env_origins.split(",") if o.strip()]
+
+    environment = os.getenv("ENVIRONMENT", "development")
+    if environment == "production":
+        return [
+            "https://easyhired.online",
+            "https://www.easyhired.online",
+            "https://cv-rusuland.vercel.app",
+            "http://localhost:3000",
+            "https://resumer-frontend-dqlc07x0d-jack-lins-projects-3d31586c.vercel.app",
+        ]
+
+    # Development defaults
+    return [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "http://localhost:3001",
@@ -121,9 +126,12 @@ else:
         "http://localhost:5173",  # Vite default
         "http://127.0.0.1:5173",
         "https://cv-rusuland.vercel.app",
-        "https://resumer-frontend-dqlc07x0d-jack-lins-projects-3d31586c.vercel.app/"
+        "https://resumer-frontend-dqlc07x0d-jack-lins-projects-3d31586c.vercel.app",
     ]
-    allow_credentials = True
+
+
+allowed_origins = get_allowed_origins()
+allow_credentials = True
 
 app.add_middleware(
     CORSMiddleware,
@@ -229,6 +237,8 @@ async def read_root():
 async def signin_options(request: Request):
     """Handle OPTIONS preflight requests for /signin"""
     origin = request.headers.get("origin")
+    # Normalize origin to avoid trailing slash mismatches
+    origin = origin.rstrip("/") if origin else origin
     # Check if origin is allowed
     if origin in allowed_origins or "*" in allowed_origins:
         return Response(
