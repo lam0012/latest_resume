@@ -1,0 +1,195 @@
+{
+    "name": "Henrique Gomes Silva",
+    "contact": {
+        "location": "Paulista, Pernambuco, Brazil",
+        "linkedin": "https://www.linkedin.com/in/henrique-gomes-8a5756396/",
+        "Email": "henriquegomes0214@gmail.com"
+    },
+    "summary": "My name is Henrique. \n It is important to be a top-quality developer, but my goal is to be someone you can trust and rely on to get the job done, even when there are unexpected issues and problems.\n                Senior Front End Engineer who thrives in building startups from the ground up, no matter the industry. I've led the development of sleek, high performing web apps that scale, working remotely with global teams to deliver exceptional user experiences. Passionate about turning ideas into\n                polished, responsive interfaces that drive growth.\nThroughout my career I have worked across Serbia, the UK, and the US in teams ranging from 10 to 100 people, contributing to product\ndevelopment in international and fast-moving environments.\nI thrive in roles where I can connect backend architecture with user facing experiences, always keeping performance, accessibility, and\nmaintainability at the center.\nOver the years I have built:\n- Education platforms with adaptive learning, gamified dashboards, and real-time progress tracking.\n- Restaurant & delivery apps for online ordering, loyalty/points, and full payment/dispatch workflows.\n- E-commerce systems handling product catalogs, checkout, coupons, and logistics integrations.\nI am passionate about clean, scalable code and about collaborating with designers, product managers, and stakeholders to translate\nrequirements into meaningful solutions.\nMy work consistently reduces technical debt, improves time to-market, and enhances user satisfaction through measurable\nimprovements in performance and usability.\nAs I continue to grow my career, I'm especially motivated by projects where technology directly improves user experience - whether that's\nreducing waiting time in a restaurant, enabling faster deliveries, or making learning more accessible through digital platforms.",
+    "references": [],
+    "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Popstand",
+      "period": "FEB 2022 - AUG 2025",
+      "skills": [
+        "React.js",
+        "Laravel",
+        "Next.js",
+        "Angular",
+        "Vue",
+        "TailwindCSS",
+        "Golang",
+        "Nest.js",
+        "Django",
+        "AWS",
+        "GCP",
+        "TDD",
+        "etc"
+      ],
+      "summary": "I have worked on several projects in various roles, including frontend, backend, DevOps, or a combination of these. I have also contributed to improving development processes and technology across the company.",
+      "highlights": [
+        "Developed white-label ordering and loyalty features with Laravel and React/Next.js, deployed across 100+ restaurants.",
+        "Architected and deployed a microservices backend using NestJS, Golang and MongoDB, implementing API documentation with Swagger and CI/CD pipelines using GitHub Actions.",
+        "Improved load times by approximately 35% using SSR/ISR, caching, and image optimization.",
+        "Integrated Stripe, Apple Pay, and Google Pay with reliable webhook handling, reducing failed transactions to under 1%.",
+        "Designed a multi-tenant structure with role-based access and data isolation.",
+        "Automated background processing with Redis queues, handling over 5,000 tasks daily.",
+        "Introduced monitoring dashboards that provided operators with real-time insights into orders and payments.",
+        "Collaborated closely with product managers to balance scalability with user experience.",
+        "Optimized database queries and implemented caching strategies, reducing API response times by 60% using Go.",
+        "Designed and implemented a secure authentication system using JWT and OAuth2, ensuring GDPR compliance.",
+        "Set up comprehensive monitoring using ELK stack and Grafana, reducing incident response time by 50%.",
+        "Developed conversion rate optimization strategies and A/B tests, increasing sales by 40% through data-driven UX enhancements."
+        ]
+    },
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Craft&Crew",
+      "period": "AUG 2020 - JAN 2022",
+      "skills": [
+        "React.js",
+        "Next.js",
+        "Angular",
+        "Vue",
+        "TailwindCSS",
+        "Golang",
+        "Nest.js",
+        "Django",
+        "AWS",
+        "GCP",
+        "Bootstrap",
+        "Webpack",
+        "InvisionApp",
+        "Balsamiq",
+        "CircleCI",
+        "Jenkins",
+        "AWS"
+      ],
+      "summary": "Built and maintained an AI-driven platform that supports business decision-making. Worked mainly on the frontend side with Angular, NgRx and rxjs. Built a microservice using NestJS on the backend side with RabbitMQ for messaging. Mentored junior guys to let them grow in a collaborative team environment.",
+      "highlights": [
+        "Improved team productivity by 30% by developing a real-time AI-powered task prioritization system with Angular and RxJS.",
+        "Handled 50K concurrent users by implementing WebSocket integration for live updates and notifications.",
+        "Reduced development time by 40% by creating a reusable UI components library with NgRx state management.",
+        "Set up an automated testing pipeline with Jest and Cypress, achieving 85% test coverage.",
+        "Developed and maintained GraphQL APIs with Node.js (NestJS) and Python (Django REST Framework), improving personalized content delivery and increasing customer engagement by 30%.",
+        "Utilized advanced caching strategies (Redis, CDNs) and PostgreSQL sharding to improve data access speed and reduce operational costs.",
+        "Integrated mobile-first design principles into the platform’s UI/UX to ensure a seamless experience across devices.",
+        "Automated infrastructure management with Terraform and Jenkins, streamlining CI/CD pipelines and improving release cycles.",
+        "Conducted code reviews for mid and junior level developers while promoting test-driven development and clean architecture principles."
+      ]
+    },
+    {
+      "title": "Full Stack developer",
+      "company": "Quave",
+      "period": "OCT 2017 - JUL 2020",
+      "skills": [],
+      "summary": "Contributed to building a Ticket Management System similar to ClickUp, built reusable components and integrated storybook for component testing. Collaborated with designers and product managers to ensure the interface was user-friendly and aligned with the business goals.",
+      "highlights": [
+        "Developed scalable RESTful APIs and data integration solutions using PHP (Laravel) and Python (Django), automating supply chain workflows and reducing operational overhead by 25%.",
+        "Mentored junior developers, conducted code reviews, and established development standards that reduced bug reports by 40%.",
+        "Created interactive dashboards and visualization tools using Vue.js and D3.js, enabling real-time monitoring and decision-making for large-scale supply chain operations.",
+        "Managed database design, optimization, and migration efforts for large MySQL and PostgreSQL databases.",
+        "Led the adoption of Docker, improving development workflows and ensuring consistent environments across local and staging setups.",
+        "Contributed to a significant reduction in production defects by implementing unit, integration, and end-to-end testing."
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Domo Inovação",
+      "period": "OCT 2016 - SEP 2017",
+      "skills": [],
+      "summary": "Built and maintained a health insurance platform from the ground up. Used Laravel, Blade, jQuery, Bootstrap, MongoDB, RESTful API, Nginx, AWS.",
+      "highlights": [
+        "Developed and maintained 5 scalable web applications using React, Angular, Vue, Laravel, MongoDB, and Express.js, improving platform stability improving platform stability.",
+        "Designed APIs and managed front-end development.",
+        "Architected databases and deployed applications using modern DevOps practices.",
+        "Optimized performance and implemented responsive UI/UX.",
+        "Integrated third-party services such as Stripe, Firebase, and RESTful APIs.",
+        "Contributed to several Shopify-based projects including theme customization and layout changes using Liquid.",
+        "Performed lightweight integrations with apps."
+      ]
+    }
+  ],
+    "skills": {
+        "Frontend Development": [
+            "React",
+            "redux",
+            "redux-thunk",
+            "Laravel",
+            "Inertia.js",
+            "Next.js",
+            "Angular",
+            "Vue",
+            "JavaScript",
+            "TypeScript",
+            "CSS",
+            "HTML",
+            "Bootstrap",
+            "TailwindCSS",
+            "Figma",
+            "InvisionApp",
+            "Zeplin"
+        ],
+        "Backend Development": [
+            "Node.js",
+            "NestJS",
+            "Laravel",
+            "Golang",
+            "Express",
+            "Python",
+            "Django",
+            "Flask",
+            "FastAPI",
+            "RESTful APIs",
+            "GraphQL",
+            "Redis",
+            "RabbitMQ",
+            "TypeORM"
+        ],
+        "Database Management": [
+            "MongoDB",
+            "PostgreSQL",
+            "MySQL",
+            "MSSQL"
+        ],
+        "Testing and Debugging": [
+            "Karma",
+            "Jest",
+            "Selenium",
+            "Cypress",
+            "Pytest"
+        ],
+        "Version Controlling System": [
+            "Git",
+            "Github",
+            "Gitlab",
+            "BitBucket"
+        ],
+        "Tools and DevOps": [
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "CircleCI",
+            "AWS",
+            "IPFS",
+            "Heroku",
+            "Vercel"
+        ],
+        "Project Management": [
+            "Agile Methodology",
+            "Jira",
+            "Confluence"
+        ],
+        "Data Visualization": [
+            "D3.js",
+            "Chart.js"
+        ]
+    },
+    "education": {
+        "degree": "Bachelor of Software Engineering",
+        "university": "Universidade Federal Rural de Pernambuco",
+        "period": "Sep 2012 to Sep 2016",
+        "description": "Major concentration in Software Development, Algorithm Design, and Database Management Systems with distinction."
+    }
+}
