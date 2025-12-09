@@ -162,7 +162,7 @@ class JobSubmission(BaseModel):
     return_json: Optional[bool] = False
     # When True: generate only a cover letter (no resume PDF)
     # When False: generate both resume PDF and cover letter
-    cover_letter_only: Optional[bool] = True
+    cover_letter_only: Optional[bool] = False
 
 class TailoredResumeResponse(BaseModel):
     # May be omitted when only a cover letter is requested
@@ -277,8 +277,10 @@ async def tailor_resume_endpoint(job_data: JobSubmission, current_user: dict = D
     try:
         cover_letter_only = job_data.cover_letter_only
 
-        # Tailor the resume based on the job description
-        template_file = f"resume_templates/{job_data.template}"
+        # Pick template, defaulting to a known template if none provided
+        template_filename = job_data.template or "ChunKai.json"
+        template_file = f"resume_templates/{template_filename}"
+
         json_path, tailored_resume = tailor_resume(job_data.job_description, model, template_file)
 
         # Convert JSON to text format
